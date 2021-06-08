@@ -1,0 +1,62 @@
+body{
+    width: 900px;
+    position: absolute;
+    right: 100px;
+}
+#flastname{
+    color: red;
+    position: relative;
+    left: 15%;
+    padding-top: 20px;
+} 
+#first , #last{
+    
+        border: 2px solid #000000 ;
+        border-radius: 8px;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 15px;
+        cursor: pointer;
+        background-color: rgb(99, 212, 207);
+
+}
+#last{
+    position: relative;
+    right: -35%;
+    top: -69px;
+}
+#password, #password2, #uremail {
+    border: 2px solid #000000 ;
+    border-radius: 8px;
+    padding: 15px 150px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(99, 212, 207);
+    position: relative;
+    right: -19%;
+}
+#dateinfo{
+    border: 2px solid #000000 ;
+    border-radius: 8px;
+    padding: 15px 168px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(99, 212, 207);
+    position: relative;
+    right: -19%;
+}
+#gender{
+    position: relative;
+    left: 30%;
+}
+#sub{
+    border: 2px solid #000000 ;
+    border-radius: 8px;
+    padding: 15px 102px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    left:29%;
+
+}

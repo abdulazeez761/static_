@@ -1,0 +1,17 @@
+p{
+    font-size: 40px;
+    position: relative;
+    left: 40%;
+    top: 150px;
+}
+button
+ {
+    border: 2px solid #0a0a0a ;
+    border-radius: 8px;
+    padding: 15px 302px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    left:30%;
+    top: 250px;
+ }

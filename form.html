@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="static/form.css" rel="stylesheet" >
+</head>
+<body>
+   
+    <form action="/forminfo" method="POST">
+      <div id = flastname>  <div > 
+        <label for="fname"></label><br>
+        <input id="first" placeholder="First name" type="text" id="fname" name="fname"><br>
+     </div> 
+       <div > <label for="lname"></label><br>
+        <input id  ='last' placeholder="last name" type="text" id="lname" name="lname">
+    </div>
+    </div>
+    <div>
+        <label for="pass"></label><br>
+        <input id = 'password' placeholder="password" type="password" name="password"  id="pass">
+    </div>
+    <div>
+        <label for="pass2"></label><br>
+        <input id = 'password2' placeholder=" rewrite your password"  type="password" name="password"  id="pass2">
+    </div>
+    <div>
+        <label for="em"></label><br>
+        <input id = "uremail" placeholder=" rewrite your email"  type="email" name="Email"  id="em">
+    </div>
+    <div><br></div>
+    <div id = 'date'>
+        <label for="birthday"></label>
+    <input id = 'dateinfo' type="date" id="birthday" name="birthday">
+    </div>
+    <div id="gender">
+    <p>Please select your gender:</p>
+  
+  
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  
+  
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  
+</div>
+<div><br></div>
+  <input id="sub" type="submit" value="send" >
+    </form>
+</body>
+</html>
